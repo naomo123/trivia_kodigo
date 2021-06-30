@@ -35,7 +35,7 @@ let preguntas = [
     {
     numb: 4,
     question: "¿De las siguientes palabras claves instrucciones una no se utiliza para construir bucles, señala cual es.",
-    answer: "JavaScript diferencia entre mayúsculas y minúsculas",
+    answer: "if",
     options: [
       "While",
       "if",
