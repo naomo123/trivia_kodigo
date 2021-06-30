@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>TRIVIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+
+        <header>
+            <nav id="nav" class="Nav">
+            <img  class="logo" src="images/logo.png">
+          </nav>
+        </header>
+        <div class="cont">
+       
+
+  <div class="start_btn"><button>Empezar la trivia</button></div>
+
+
+    <div class="info_box">
+        <div class="info-title"><span>Reglas para la trivia</span></div>
+        <div class="info-list">
+            <div class="info">1. Tendráss solo <span>20 segundos</span> por cada pregunta.</div>
+            <div class="info">2. Una vez selecciones tu respuesta, no podrás cambiarla.</div>
+            <div class="info">3. No podrás seleccionar ninguna opción una vez el tiempo acabe.</div>
+            <div class="info">4. No podrás salir del test una vez empieces a jugar.</div>
+            <div class="info">5. Obtendrás puntos según el número de respuestas correctas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+
+    <div class="quiz_box">
+        <header>
+            <div class="title"></div>
+            <div class="timer">
+                <div class="time_left_txt"></div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+
+          <table>
+            <tr>
+              <td>
+                <div class="que_text">
+
+                </div>
+                <div class="option_list">
+
+                </div>
+              </td>
+             
+            </tr>
+          </table>
+
+        </section>
+
+
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Siguiente</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Felicidades haz completado la trivia!!!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="restart">Reiniciar la trivia</button>
+            <button class="quit">Salir de la trivia</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<script src="proceso.js"></script>
+<script src="script.js"></script>
+</html>
