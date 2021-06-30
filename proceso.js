@@ -75,7 +75,7 @@ options: [
   "HTML",
   "JAVASCRIPT",
   "PHP",
-  " CSS"
+  "CSS"
 ]
 },
 {
